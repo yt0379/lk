@@ -2,10 +2,6 @@
 #fullpage{
 	min-width: 1120px;
 }
-#page-1,#page-2,#page-3,#page-5{
-	-webkit-background-size: contain;
-	background-size: contain;
-}
 #page-1{
 	background: url(../img/bg_001.png) no-repeat center;
 }
@@ -23,7 +19,10 @@
 #page-5{
 	background: url(../img/bg_005.png) no-repeat center;	
 }
-
+#page-1,#page-2,#page-3,#page-5{
+	-webkit-background-size: cover;
+	background-size: cover;
+}
 
 /*导航*/
 #nav-box{
@@ -739,4 +738,22 @@ ul.nav-bar{
 }
 .icon-shangjiantou{
 	line-height: 3em;
+}
+
+@media screen and (min-height: 750px){
+	.britain-box {
+	    top: 20%;
+	}
+	.img-box {
+	    margin: 5% auto;
+	}
+	.card-box {
+	    margin: 3% auto;
+	}
+	.corp-box {
+	    margin: 10% auto 0;
+	}
+	.how-we-do {
+	    margin: 6% auto;
+	}
 }

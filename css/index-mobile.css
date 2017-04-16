@@ -120,7 +120,7 @@
 }
 
 .img-box>h2{
-    margin: 5% 0 15% 0;
+    margin: 35% 0 15% 0;
     font-size: 1.4rem
 }
 .img-box>.btn{
@@ -138,11 +138,19 @@
     height: 3.2rem;
 }
 #img-l-1{
-	left: -168px;
-	top:135px;   
+	left: -35%;
+    top: 0%;  
+}
+#img-l-2{
+    left: -63%;
+    top: 42%; 
+}
+#img-l-3{
+	left: -36%;
+    top: 82%;  
 }
 .img-l>h1{
-	color: #C0E5BB;
+	color: #EAF5E9;
     font-size: 2.5rem;
 }
 .img-l>p{
@@ -249,148 +257,110 @@
 #page-3>.content
 {
 	color: #fff;
-	padding-top: 30px;
+	padding-top: 30%;
 }
-
+#page-3>.content>p {
+    font-size: 1.5rem;
+    width: 80%;
+    margin: 2rem auto;
+}
 .img-box-3{
-	padding-top: 160px;
+	padding-top: 11rem;
 }
 .card-box{
 	color: white;
 	position: relative;
-	width: 542px;
-	height: 258px;
+	width: 85.333333%;
+	height: 150px;
 	margin: 0 auto;
 }
 #card-1,#card-2,#card-3,#card-4{
 	position: absolute;
 }
 #card-4{
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background: url(../img/colar_001.png) 0 0 no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-	padding: 10px;
-	text-align: center;	
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(../img/colar_001.png) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    text-align: center;
 }
 #card-4>h1{
-	font-size: 30px;
+    font-size: 2rem;
+    padding-top: 4px;
 }
 #card-4>p{
-	width: 330px;
-    margin: 20px auto 25px;
-    font-size: 18px;   
+    width: 80%;
+    margin: 0.5rem auto 1rem;
     text-align: left;
 }
 #card-4>.btn{
-	border: 2px solid #fff;
-    padding: 10px 50px;
+	border: 1px solid #fff;
+    padding: 6px 50px;
     border-radius: 24px;
-    font-size: 16px;
+    line-height: 2rem;
 }
-
 #card-3{
-	top: -2.2em;
+    top: -2em;
     left: 50%;
     margin-left: -36.9%;
-	width: 73.8%;
-	height: 73.8%;
-	background: url(../img/colar_002.png) 0 0 no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-	padding: 10px;
-	text-align: center;
-	font-size: 22px;
+    width: 73.8%;
+    height: 73.8%;
+    background: url(../img/colar_002.png) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 1.6rem;
 }
-
 #card-2{
-	top: -5em;
+    top: -3.9em;
     left: 50%;
     margin-left: -25.463%;
-	width: 50.926%;
-	height: 50.926%;
-	background: url(../img/colar_003.png) 0 0 no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-	padding: 10px;
-	text-align: center;
-	font-size: 18px;
+    width: 50.926%;
+    height: 50.926%;
+    background: url(../img/colar_003.png) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    padding-top: 4px;
+    text-align: center;
+    font-size: 16px;
 }
-
 #card-1{
-	top: -8.6em;
+    top: -6.3em;
     left: 50%;
-    margin-left: -19.8148%;
-	width: 39.6296%;
-	height: 39.6296%;
-	background: url(../img/colar_004.png) 0 0 no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-	padding: 5px 10px;
-	text-align: center;
-	font-size: 14px;
+    margin-left: -16.8148%;
+    width: 36.6296%;
+    height: 39.6296%;
+    background: url(../img/colar_004.png) 0 0 no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    padding-top: 3px;
+    text-align: center;
+    font-size: 14px;
 }
 
-.img-tubiao{
-	width: 340px;
-	height: 210px;
-	background: url(../img/img_tubiao.png) 0 0 no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-	position: absolute;
-	top: -44%;
-    left: -50%;
+#page-4>.content{
+	color: white;
+	padding-top: 20%;
 }
-.img-1{
-	width: 157px;
-	height: 92px;
-	background: url(../img/img__41.png) 0 0 no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-	position: absolute;
-	bottom: -20%;
-    left: -30%;
-}
-
-.img-2{
-	width: 156px;
-	height: 120px;
-	background: url(../img/img__38.png) 0 0 no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-	position: absolute;
-	bottom: -13%;
-    right: -46%;
-}
-.img-3{
-	width: 156px;
-	height: 120px;
-	background: url(../img/img__34.png) 0 0 no-repeat;
-	-webkit-background-size: contain;
-	background-size: contain;
-	position: absolute;
-	top: -40%;
-    right: -40%;
-}
-
 #page-4 h1{
 	font-size: 28px;
 	padding-top: 30px;
 }
 
 .corp-box{
-	width: 388px;
-	height: 388px;
+	width: 236px;
+	height: 236px;
 	border: 1px dotted #fff;
 	border-radius: 50%;
-	margin: 6.6% auto 0;
+	margin: 36% auto 0;
 	background: url(../img/img_40.png) center no-repeat;
-	background-size: 75%;
+	background-size: 90%;
 	text-align: center;
-	line-height: 388px;
+	line-height: 8;
     font-size: 2em;
     color: #fff;
     position: relative;
@@ -399,99 +369,95 @@
 .corp-box>div,
 .corp-box p{
 	line-height: 20px;
-	font-size: 16px;
+	font-size: 1rem;
 }
 .detail-1{
-	background-color: #EA9842;
     color: white;
     position: absolute;
     top: 50%;
-    left: -75px;
-    padding: 0.3em 0px;	
+    left: -4.6em;
+    padding: 0.3em 0px;
+
 }
 .detail-2{
-	background: url(../img/img__64.png) right 0 no-repeat;
-	position: absolute;
-    top: 24%;
-    left: -120px;
-    width: 140px;
-    height: 40px;
+    background: url(../img/img__64.png) right 0/contain no-repeat;
+    position: absolute;
+    top: 31%;
+    left: -3.4rem;
+    width: 2.4rem;
+    height: 2.4rem;
     padding-right: 30px;
-    color: #898989;
-    background-size: contain;
 }
 .detail-2>span{
-	position: relative;
-	top: -1em;
-    left: -0.5em;
+	position: absolute;
+    top: -1.8em;
+    left: -2em;
 }
 .detail-3{
 	background: url(../img/img__54.png) right 0 no-repeat;
 	position: absolute;
 	top: 5%;
-    left: -33px;
-    height: 50px;
+    left: -19px;
+    height: 44px;
+    width: 44px;
     padding-right: 30px;
-    color: #898989;
     background-size: contain;
 }
 .detail-3>span{
-	position: relative;
-    left: -2.1em;
+    position: absolute;
+    left: -3.4em;
 }
 .detail-4{
 	background: url(../img/img__48.png) right 0 no-repeat;
 	position: absolute;
-	    top: -3%;
-    left: 22px;
-    height: 40px;
+    top: -6%;
+    left: 32px;
+    height: 32px;
+    width: 32px;
     padding-right: 30px;
-    color: #898989;
     background-size: contain;
 }
 .detail-4>span{
-	position: relative;
-        top: -0.5em;
-    left: -1.4em;
+    position: absolute;
+    top: -1em;
+    left: -4.3em;
 }
 .detail-5{
 	background: url(../img/img__45.png) right 0 no-repeat;
 	position: absolute;
-	top: -7%;
-    left: 100px;
+    top: -11%;
+    left: 34px;
     height: 40px;
+    width: 70px;
     padding-right: 30px;
-    color: #898989;
     background-size: contain;
 }
 .detail-5>span{
 	position: relative;
-        top: -1.5em;
+    top: -1.5em;
     left: 3.2em;
 }
 .detail-6{
 	background: url(../img/img__51.png) right 0 no-repeat;
 	position: absolute;
-	top: -3%;
-    left: 105px;
+    top: -6%;
+    left: 49px;
     height: 40px;
     padding-right: 30px;
-    color: #898989;
     background-size: contain;
 }
 .detail-6>span{
 	position: relative;
-        top: -1.5em;
+	top: -1.5em;
     left: 10.2em;
 }
 .detail-7{
 	background: url(../img/img__59.png) right 0 no-repeat;
 	position: absolute;
-	top: 7%;
-    left: 188px;
+    top: 5%;
+    left: 106px;
     height: 40px;
     padding-right: 30px;
-    color: #898989;
     background-size: contain;
 }
 .detail-7>span{
